@@ -1,6 +1,6 @@
 
 ### Set working directory with master file
-setwd('C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April')
+setwd('C:/Users/DATA')
 
 ### Source analysis files
 source('data_load.R')
