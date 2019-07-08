@@ -153,11 +153,11 @@ loose <- data[c("/1994-02-03", "2001-01-03/2004-06-24", "2007-09-18/2015-12-14")
 
 
 # Export regime data (change to your local directory)
-saveRDS(moderation, "C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/moderation.rds")
-saveRDS(zirp, "C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/zirp.rds")
+saveRDS(moderation, "C:/Users/DATA/moderation.rds")
+saveRDS(zirp, "C:/Users/DATA/zirp.rds")
 
-saveRDS(tight, "C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/tight.rds")
-saveRDS(loose, "C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/loose.rds")
+saveRDS(tight, "C:/Users/DATA/tight.rds")
+saveRDS(loose, "C:/Users/DATA/loose.rds")
 
 
 # Plot some basic time series
