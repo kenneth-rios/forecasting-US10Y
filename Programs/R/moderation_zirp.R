@@ -5,8 +5,8 @@
 ##### cutoff year is 2013 (~71% share in training set).
 
 # Import regime data (change to your local directory with RDS files)
-moderation <- readRDS("C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/moderation.rds")
-zirp <- readRDS("C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/zirp.rds")
+moderation <- readRDS("C:/Users/DATA/moderation.rds")
+zirp <- readRDS("C:/Users/DATA/zirp.rds")
 
 # Import libraries
 library(xgboost)
