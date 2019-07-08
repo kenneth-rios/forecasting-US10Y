@@ -13,8 +13,8 @@ library(xgboost)
 
 ##### Split macroeconomic data by Fed policy regimes #####
 # Import regime data (change to your local directory with RDS files)
-tight <- readRDS("C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/tight.rds")
-loose <- readRDS("C:/Users/shukr/Desktop/NYU_Classes/SEM 4/Project_R_files/April/RDS_files/loose.rds")
+tight <- readRDS("C:/Users/DATA/tight.rds")
+loose <- readRDS("C:/Users/DATA/loose.rds")
 
 # Split data from tightening block into training and test sets
 tight <- as.xts(tight)
